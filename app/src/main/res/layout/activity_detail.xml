@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spinnerselection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/country_arrays"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:background="#AAAAAA"></Spinner>
+
+    <Button
+        android:id="@+id/gotoreturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Return:Selection"
+        android:padding="25dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/gotoprocess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="25dp"
+        android:layout_margin="10dp"
+        android:text="Process:Selection"/>
+</RelativeLayout>
